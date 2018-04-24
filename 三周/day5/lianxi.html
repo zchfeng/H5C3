@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style type="text/css">
+.all{width:700px;height:200px;margin:20px auto;display:flex;align-items:center;border:solid 1px #ccc}
+.box{width:100px;height:100px;background: #ccc;border-radius:10px;padding:10px;box-sizing:border-box;
+      display:flex;margin:0 10px;}
+.box1{justify-content:center;display:flex;align-items:center;}
+.box1 div,.box2 div,.box3 div,.box-1 div,.box-2 div,.box-3 div{width:22px;height:22px;border-radius:50%;background:#000;}
+.box2,.box3,.box4,.box-1,.box-2,.box5,.box-3{justify-content:space-between;flex-wrap:wrap;}
+.box2 div:nth-of-type(2),.box3 div:nth-of-type(3){align-self:flex-end;}
+.box3 div:nth-of-type(2){align-self:center;}
+.all .box .box-1,.all .box .box-2,.all .box .box-3{height:100%;align-content:space-between;display:flex;width:22px;}
+.all .box .box-2{align-items:center;}
+</style>
+</head>
+
+<body>
+<div class="all">
+    <div class="box1 box">
+        <div></div>
+    </div>
+    <div class="box2 box">
+        <div></div>
+        <div></div>
+    </div>
+    <div class="box3 box">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div class="box4 box">
+        <div class="box-1">
+         <div></div>
+         <div></div>
+        </div>
+         <div class="box-2">
+          <div></div>
+         <div></div>
+        </div>
+    </div>
+    <div class="box5 box">
+        <div class="box-1">
+         <div></div>
+         <div></div>
+        </div>
+         <div class="box-2">
+         <div></div>
+        </div>
+        <div class="box-3">
+          <div></div>
+         <div></div>
+        </div>
+    </div>
+     <div class="box5 box">
+        <div class="box-1">
+         <div></div>
+         <div></div>
+          <div></div>
+        </div>
+         <div class="box-2">
+         <div></div>
+         <div></div>
+         <div></div>
+        </div>
+       
+    </div>
+</div>
+</body>
+</html>

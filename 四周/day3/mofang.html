@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style>
+*{margin:0;padding:0;}
+ul li{list-style:none;}
+body{background:#000;}
+ul{width:300px;height:300px;background:#FF0;transform-style:preserve-3d;position:absolute;top:50%;left:50%;
+margin-left:-150px;margin-top:-150px;transition:all 2s linear;}
+ul li{width:300px;height:300px;position:absolute;}
+ul li span{width:100px;height:100px;box-sizing:border-box;border:2px solid #FFF;float:left;border-radius:5px;}
+ul li:nth-child(1) span{background:#F00;}
+ul li:nth-child(2) span{background:#0f0;}
+ul li:nth-child(3) span{background:#00f;}
+ul li:nth-child(4) span{background:#FFF}
+ul li:nth-child(5) span{background:#0FF;}
+ul li:nth-child(6) span{background:#F0F;}
+ul li:nth-child(1){transform:rotateY(90deg) translateZ(150px);}
+ul li:nth-child(2){transform:rotateY(90deg) translateZ(-150px);}
+ul li:nth-child(3){transform:rotateX(90deg) translateZ(150px);}
+ul li:nth-child(4){transform:rotateX(90deg) translateZ(-150px);}
+ul li:nth-child(5){transform:rotateZ(90deg) translateZ(150px);}
+ul li:nth-child(6){transform:rotateZ(90deg) translateZ(-150px);}
+ul:hover{transform:rotateX(360deg) rotateY(360deg)}
+ul:hover li:nth-child(1){transform:rotateY(90deg) translateZ(300px);}
+ul:hover li:nth-child(2){transform:rotateY(90deg) translateZ(-300px);}
+ul:hover li:nth-child(3){transform:rotateX(90deg) translateZ(300px);}
+ul:hover li:nth-child(4){transform:rotateX(90deg) translateZ(-300px);}
+ul:hover li:nth-child(5){transform:rotateZ(90deg) translateZ(300px);}
+ul:hover li:nth-child(6){transform:rotateZ(90deg) translateZ(-300px);}
+
+
+</style>
+</head>
+
+<body>
+    <ul>
+        <li><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></li>
+        <li><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></li>
+        <li><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></li>
+        <li><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></li>
+        <li><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></li>
+        <li><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></li>
+        <li><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></li>
+        <li><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></li>
+        <li><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></li>
+    </ul>
+</body>
+</html>

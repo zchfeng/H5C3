@@ -1,0 +1,19 @@
+header{position:relative;}
+header img{width:100%;}
+header ul{display:flex;position:absolute;left:0;top:.11rem;justify-content:space-around;width:100%;overflow:hidden;align-items:center;}
+header ul li a{color:#FFF;font-size:.14rem;line-height:.14rem;}
+header ul li:nth-child(1) span{display:inline-block;margin-left:.05rem;}
+header ul li:nth-child(1) span img{width:.11rem;height:.08rem;}
+header form{width:2.1rem;height:.285rem;border-radius:.1425rem;overflow:hidden;background:#FFF;padding:.05rem .07rem;box-sizing:border-box;display:flex;}
+header ul li:nth-child(3) img{width:.13rem;height:.12rem;}
+header ul li:nth-child(3) span{display:inline-block;margin-right:.04rem;}
+header ul li:nth-child(2) img{width:.1rem;height:.09rem;display:inline-block;}
+header ul li:nth-child(2) input{width:1.1rem;height:.09rem;font-size:.09rem;line-height:.09rem;}
+
+section ul{display:flex;width:100%;flex-wrap:wrap;}
+section ul li{width:20%;box-sizing:border-box;padding:0 .04rem 0 .146rem;text-align:center;margin-top:.13rem;}
+section ul li img{width:.2867rem;height:.2867rem;margin-bottom:.04rem;}
+section ul li p{font-size:.08rem;color:#333;}
+section .box{margin-top:.11rem;height:.05rem;width:.153rem;text-align:center;display:flex;justify-content:space-between;}
+section .box i{height:.05rem;width:.05rem;background:#00b4a2;border-radius:50%;}
+section .box b{height:.05rem;width:.05rem;background:#ccc;border-radius:50%;}

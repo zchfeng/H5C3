@@ -1,0 +1,11 @@
+header{height:44px;background:#0dc441;position:relative;}
+header p{font-size:17px;color:#FFF;text-align:center;line-height:44px;}
+header span{position:absolute;left:16px;bottom:16px;color:#FFF;}
+
+
+figure{box-sizing:border-box;background:#f1f1f1;overflow:hidden;padding-top:5px;}
+figure img{width:100%;}
+
+aside{height:57px;border-bottom:#c5c5c5;}
+aside ul{display:flex;padding:0 15px;box-sizing:border-box;justify-content:space-between;align-items:center;}
+aside ul li a{padding:0 32px;font:12px;color:#0dc441;line-height:29px;border:solid 1px #0dc441;}

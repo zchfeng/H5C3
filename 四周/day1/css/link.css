@@ -1,0 +1,47 @@
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,i,em,a,img,header.main.nav,footer{margin:0;padding:0;}
+ul li,ol li{list-style:none;}
+a{text-decoration:none;}
+img{border:0;}
+input{outline:none;}
+.main{width:1920px;margin:0 auto;}
+body{font:14px/14px "微软雅黑";color:#333;}
+.font24{font-size:24px ;}
+.col-w{color:#fff;}
+.retract{text-indent:99999px;}
+.font12{font-size:12px;}
+
+
+header{height:44px;background:#0dc441;position:relative;}
+header ul {display:flex;justify-content:center;align-items:center;height:44px;}
+header ul li{width:60px;height:24px;background:#3dd067;text-align:center;line-height:24px;}
+header ul li a{color:#a3e9b7;}
+header ul li:nth-child(1){border-radius:12px 0 0 12px;}
+header ul li:nth-child(2){border-radius:0 12px 12px 0;}
+header ul li.action{background:#64d985;}
+header ul li.action a{color:#fff;}
+header span{position:absolute;left:16px;bottom:16px;color:#FFF;}
+
+nav{height:35px;background:#fff;border-bottom:solid 1px #d9d9d9;overflow:hidden;}
+nav ul{display:flex;align-items:center;height:35px;}
+nav ul li{flex:1;text-align:center;line-height:35px;}
+nav ul li a{color:#666;line-height:35px;}
+nav ul li.active{border-bottom:solid 2.5px #0dc441;}
+nav ul li.active a{color: #0dc441;}
+
+main{padding-bottom:44px;}
+main ul{display:flex;justify-content:space-between;flex-wrap:wrap;}
+main ul li{width:50%;box-sizing:border-box;margin-top:5px}
+main ul li img{width:100%;}
+main ul li a{border:solid 1px #e5e5e5;border-bottom:0;display:block;}
+main ul li p{line-height:29px;padding-left:11px;border:solid 1px #e5e5e5;}
+main ul li:nth-child(2n+1){padding-right:5px;}
+main ul li:nth-child(2n){padding-left:5px;}
+
+footer{position:fixed;bottom:0px;width:100%;background:#FFF;}
+footer ul{height:44px;display:flex;justify-content:space-around;position:relative;}
+footer ul li span{display:block;font-size:16px;line-height:26px;text-align:center;}
+footer ul li a{color:#ddd;}
+footer ul li:nth-child(3) a{width:52px;height:52px;border:1px solid #dedede;border-radius:50%;background:#fff;font-size:28px;line-height:52px;
+display:block;text-align:center;}
+footer ul li:nth-child(3){position:relative;top:-9px;}
+footer ul li:nth-child(1) a{color:#0dc441;}

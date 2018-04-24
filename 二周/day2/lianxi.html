@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jd</title>
+<style type="text/css">
+*{margin:0;padding:0;}
+body{height:2000px;}
+.box1{width:226px; height:134px;margin:10px auto;position:relative;}
+.box1 p{width:226px; height:20px;background:red;position:absolute;bottom:0;}
+.box2{width:637px; height:227px;margin:10px auto;position:relative;z-index:1;}
+.box2 .pic1{width:637px; height:79px;position:absolute;bottom:0;z-index:-1;}
+.box2 .pic2{width:100px; height:92px;position:absolute;bottom:84px;right:153px;}
+.box2 .pic3{width:637px; height:70px;position:absolute;top:0;z-index:2;}
+.box2 .pic4{width:100px; height:120px;position:absolute;bottom:80px;left:40px;}
+.box2 .pic5{width:250px; height:300px;position:absolute;bottom:-150px;left:-125px;overflow:hidden;text-overflow:clip;}
+
+.box3 .chat{width:361px; height:403px;background:red;position:fixed;bottom:0;right:0;z-index:1;}
+
+
+.box4{width:750px;height:440px;margin:10px auto;}
+.box4 a{width:200px;height:150px; display:block;position:relative;float:left;}
+.box4 img{width:200px;height:150px;border:solid 10px #e9eeea;background:#fff;padding:2px;margin:0 20px 20px 0;} 
+.box4 a:hover img{width:400px;height:300px;border:solid 2px red;z-index:2;padding:0px;position:absolute;}
+.box5 {width:100px;height:100px;position:absolute;left:50%;top:50%;margin-left:-50px;margin-top:-50px;background:blue;z-index:999;}
+</style>
+</head>
+
+<body>
+   <div class="box1">
+        <img src="img01.jpg" />
+        <p>111111111111</p>
+    </div>
+    <div class="box2">
+        <img width="637px" src="dingwei/img7.png" />
+        <img class="pic1" src="dingwei/bj.jpg" />
+         <img class="pic2" src="dingwei/img4.png" />
+         <img class="pic3" src="dingwei/img3.png" />
+         <img class="pic4" src="dingwei/img1.png" />
+         <img class="pic5" src="dingwei/img2.png" />
+    </div>
+    <div class="box3">
+        <div class="chat">
+        </div>
+    </div> 
+    <div class="box4">
+        <div class="photo">
+         <a href=""><img class="pic2" src="img/photo01.jpg" /></a>
+         <a href=""><img class="pic2" src="img/photo01.jpg" /></a>
+         <a href=""><img class="pic2" src="img/photo01.jpg" /></a>
+         <a href=""><img class="pic2" src="img/photo01.jpg" /></a>
+         <a href=""><img class="pic2" src="img/photo01.jpg" /></a>
+         <a href=""><img class="pic2" src="img/photo01.jpg" /></a>
+        </div>
+    </div>
+    <div class="box5"></div>
+</body>
+</html>

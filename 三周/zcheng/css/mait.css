@@ -1,0 +1,73 @@
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,i,em,a{margin:0;padding:0;}
+ul li,ol li{list-style:none;}
+a{text-decoration:none;}
+img{border:0;}
+input{outline:none;}
+.main{width:1140px;margin:0 auto;overflow:hidden;}
+body{font:14px/14px "微软雅黑";color:#333;}
+.font24{font-size:24px ;}
+.col-w{color:#fff;}
+.retract{text-indent:99999px;}
+.font12{font-size:12px;}
+
+.top{height:104px;width:100%;background:#fefefe;overflow:hidden;}
+.logo{margin:25px 46px 0 0;}
+.top i{width:87px;height:39px;margin-top:36px;padding-left:27px;background:url(../images/shouy_06.png) no-repeat left;
+font-size:12px;color:#999;display:block;line-height:12px;}
+.top i span{padding-bottom:13px;display:inline-block;}
+.top ul{padding:31px 0 0 128px;overflow:hidden;}
+.top ul li a{display:block;padding:30px 15px;font-size:14px;line-height:14px;color:#000;}
+.top ul,.top ul li,.top i,.logo{float:left;float:left;}
+.top ul li a:hover{background:#f75a53;color:#FFF;border-radius:5px 5px 0 0; }
+
+
+.content-one{padding:40px 0 60px 0;background:#f7f7f7;overflow:hidden;}
+h4{font-size:24px;line-height:24px;text-align:center;}
+.content-one p,.content-tow p,.content-thr p{font-size:14px;line-height:14px;color:#9a9899;margin:20px 0 28px 0;text-align:center;}
+.content-one a{width:178px;height:72px;padding:28px 0 0 10px;display:block;float:left;background:#FFF;}
+.bor-l{border-left:solid 1px #ededed;}
+.bor-r{border-right:solid 1px #ededed;}
+.bor-b{border-bottom:solid 1px #ededed;}
+.bor-t{border-top:solid 1px #ededed;}
+
+.content-tow{padding:53px 0 66px 0;background:#1a1b1f;overflow:hidden;}
+.content-tow h4,.content-tow p{color:#FFF;}
+.content-tow p{margin-bottom:108px;}
+.box{width:340px; height:260px;background:#cfcfcf;float:left;position:relative;}
+.box dl{width:252px;text-align:center;margin:96px 44px 0 44px;}
+.box dl dt{font-size:16px;line-height:16px;color:#f85953;margin-bottom:20px;}
+.box dl dd{font-size:14px;line-height:30px;color:#000;}
+.title{position:absolute;left:106px; top:-65px;width:64px;height:65px;padding:26px 27px 27px 27px;background:#e54142;border:solid 6px #f3f3f3;border-radius:50%;}
+.box-1{margin:0 62px 0 58px;}
+
+.content-thr{padding:50px 0 30px 0;overflow:hidden;}
+.content-thr p{margin-bottom:34px;}
+.nav{position:relative;margin-left:156px;}
+.nav a{float:left;width:200px;height:40px;display:block;background:#666;color:#fff;font-size:12px;line-height:40px;text-align:center;position:relative;margin-bottom:25px;}
+.triangle{width:0;height:0;border-top:solid 7px #f75a53;border-right:solid 7px rgba(0,0,0,0);border-left:solid 7px rgba(0,0,0,0);position:absolute;left:94px;top:40px;visibility:hidden;}
+.nav .a2:hover .triangle-tow{visibility:visible;}
+.nav .a3:hover .triangle-thr{visibility:visible;}
+.nav .a4:hover .triangle-four{visibility:visible;}
+.nav a:hover{background:#f75a53;}
+.nav .a1:hover .triangle-one{visibility:visible;}
+.content-thr ul li{margin-bottom:30px;float:left;}
+.margin-30{margin:0 30px 30px 30px ;}
+
+.footer{width:100%;height:350px;background:#f2f2f2;overflow:hidden;}
+.footer ul{float:left;width:340px;margin-top:18px;overflow:hidden;}
+.footer ul li a{font-size:14px;color:#878787;line-height:14px;}
+.footer ul li{margin-bottom:16px;}
+.footer ul li b5{font-size:18px;line-height:52px;}
+.footer ul li.li-last a{width:118px; height:32px;text-align:center;background:#f75a51;display:block;margin-top:26px;
+color:#FFF;line-height:32px;}
+.footer ul li a.time{float:right;}
+.footer ul:nth-of-type(2){margin-left:59px;margin-right:59px;}
+.footer ul.ul-c{margin-left:59px;margin-right:59px;}
+
+.copy{height:138px;background:#363636;width:100%;overflow:hidden;}
+.copy ul{margin:30px 0 16px 304px;height:13px;}
+.copy ul li{float:left;padding:0 10px;border-right:solid 1px #727272;}
+.copy ul li:last-of-type{border:0;}
+.copy ul li.li-r{border:0;}
+.copy ul li a,.copy p{float-size:12px;line-height:13px;color:#727272;}
+.copy p{margin-bottom:16px;text-align:center;}

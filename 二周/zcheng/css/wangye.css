@@ -1,0 +1,31 @@
+.header{height:102px;}
+.header ul li{float:left;margin-top:17px;}
+.logo{margin-right:17px;}
+.serve{padding-left:19px;background:url(../images/wangye_06.png) no-repeat left;height:58px;margin-top:3px;}
+.serve img{margin:7px 11px 0px 0px;}
+.serve a{display:inline-block;margin:19px 20px 0 0;font-size:16px;color:#4a4a4a;line-height:30px;}
+.header ul .team{padding-left:54px;background:url(../images/wangye_14.png) no-repeat left;font-size:16px;color:#4a4a4a;line-height:30px;margin-top:27px;padding-top:15px;}
+.header span{font-size:20px;line-height:20px;color:#da251d;}
+.header ul .phone{float:right;margin-right:16px;padding-left:90px;background:url(../images/wangye_09.png) no-repeat left;}
+.header ul .phone p{font-size:16px;color:#1c5099;margin-bottom:9px;font-weight:600px;}
+
+.nav{height:47px;background:#2b78d9;}
+.nav ul li{float:left;text-align:center;}
+.nav ul li a{width:150px;height:47px;font-size:14px;color:#FFF;display:block;line-height:47px;}
+.nav ul li a:hover{background:#145bb5;}
+
+.aside{height:73px;border-bottom:solid 1px #d2d2d2;overflow:hidden;background:#eee;}
+.aside ul{margin-top:37px;}
+.aside ul li{float:left;margin-right:46px;}
+.aside ul li a{display:block;padding-bottom:18px;font-size:16px;line-height:16px;color:#3e3e3e;}
+.aside ul li a:hover{color:#2b78d9;border-bottom:solid 2px #2b78d9;}
+.aside ul .aside-last {float:right;}
+.aside ul .aside-last a{padding-left:35px;background:url(../images/shouye_28.png) no-repeat left top;}
+
+.sec-one{background:#eee;min-height:570px;padding-top:70px;padding-bottom:75px;box-sizing:border-box;}
+h3{font-size:34px;line-height:34px;text-align:center;}
+.sec-one h3{color:#2b78d9;margin-bottom:55px;}
+.sec-one ul{float:left;width:237px;margin-right:77px;overflow:hidden;}
+.sec-one ul li{font-size:14px;line-height:36px;color:#848484;text-align:center;}
+.sec-one ul li.title{margin:45px  0 6px 0;font-size:18px;line-height:18px;color:#4185db;}
+.sec-one .sec-last{margin-right:0;}

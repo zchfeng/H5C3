@@ -1,0 +1,93 @@
+*{margin:0;padding:0;}
+ul li,ol li{list-style:none;}
+.main{width:1010px;margin:0 auto;}
+input{outline:none;}
+a{font:14px "微软雅黑";color:#333;text-decoration:none;}
+img{border:0;}
+
+.top{width:100%;height:80px;background:url(../images/bg_02.png);padding-top:25px;}
+.top ul,.top .dial{float:right;}
+.top ul li{font-size:16px;color:#333;margin:12px;line-height:16px;}
+.top ul li.iphone{font-size:24px;color:#ff3002;}
+
+.nav{height:39px;background:#333;width:100%;border-top:solid 1px #FFF;}
+.nav ul{margin-left:5px;}
+.nav ul li{float:left;position:relative;width:111px;height:39px;}
+.nav ul li a{float:left;width:111px;height:39px;display:block;color:#FFF;font-size:12px;line-height:39px;text-align:center;}
+.nav ul li a:hover{padding-top:1px;background:#ec6c00;position:absolute; left:0;top:-1px;}
+
+
+ dl{margin:20px auto 36px;}
+ dl dt,dd{text-align:center;}
+ dl dt{height:44px;background:url(../jinglingtu.png) no-repeat 550px 10px;margin-bottom:12px;}
+ dl dt p{height:44px;width:44px;background:#ee6a00; color:#f3f5f2;font-size:30px;line-height:40px;display:block;margin:0 auto;border-radius:22px;}
+ dl dd{font-size:18px;line-height:19px;margin-bottom:6px;color:#ff7f00;}
+ dl dd.english{font-size:12px;line-height:12px;color:#c9c7c8;}
+ dl dd.bg{height:30px;background:url(../jinglingtu.png) no-repeat 450px -5px;margin-bottom:32px;}
+
+.content-one{width:282px;float:left;margin-right:22px;margin-bottom:65px;}
+.content-one .photo{width:270px;height:184px;padding:3px;margin-left:1px;border:solid 2px #c7c7c7;border-top:solid 1px #eee;margin-bottom:3px;}
+.content-one .explain{width:238px;height:135px;padding:24px 22px;border:solid 1px #e6e6e6;border-top:4px solid #e6e6e6;position:relative;background:url(../images/bg_19.png) no-repeat center top;}
+.content-one .explain h2{font-size:22px;line-height:22px;text-align:center;margin-bottom:12px;color:#333;}
+.content-one .explain p{font-size:12px;line-height:24px;color:#757376;cursor:pointer;}
+.content-one a{color:#a79c98;font-size:12px;position:absolute;right:22px; bottom:24px;}
+.aleft{width:58px;height:184px;float:left;}
+.aleft a,.aright a{margin-top:194px;display:block;height:34px;height:40px;background:url(../jinglingtu.png) no-repeat 0 -311px;}
+.aright{width:35px;height:184px;float:left;}
+.aright a{background:url(../jinglingtu.png) no-repeat 0 -365px;}
+
+.content-tow{width:100%;padding-top:50px;background:#e03b39;overflow:hidden;padding-bottom:70px;}
+.content-tow dl dt{background-position:550px -75px;}
+.content-tow dl dd.bg{background-position:450px -80px;}
+.content-tow dl dd{color:#FFF;}
+.content-tow dl dt p{color:#e67a78;background:#FFF;}
+.content-tow ol{width:176px;margin-right:32px;float:left;}
+.content-tow ol li{color:#FFF;}
+.content-tow ol li.name{margin-top:10px;font-size:16px;line-height:34px;text-align:center;}
+.content-tow ol li.aptitude{font-size:12px;line-height:22px}
+.content-tow ol.right{margin-right:0;}
+
+.content-three{width:100%;padding-top:50px;overflow:hidden;padding-bottom:30px;}
+.content-three .headline{width:445px;overflow:hidden;height:147px;float:left;margin:0 82px 40px 4px;}
+.headline img{float:left;margin-right:18px;}
+.headline ul{float:left;margin-top:22px;width:218px;}
+.headline ul li.list1{font-size:14px;color:#313234;line-height:14px;}
+.headline ul li.list2{font-size:12px;color:#999;line-height:36px;}
+.headline ul li.list3 a{font-size:12px;color:#656668;line-height:20px;}
+.headline ul li.list4 a{font-size:12px;color:#99979a;line-height:20px;margin-top:15px;}
+.content-three .headline-tow{margin:0;}
+
+.content-four{padding:48px 0 27px 0;overflow:hidden;}
+.content-four img{float:left;margin:0 20px 22px 5px;}
+
+.content-five{padding:30px 0 78px 0;background:#232323;}
+.content-five dl{margin:20px 0 18px 0;}
+.content-five dl dt{background-position:550px -36px;}
+.content-five dl dd.bg{background-position:450px -46px;}
+.content-five dl dd{color:#FFF;}
+.content-five dl dt p{color:#232323;background:#FFF;line-height:44px;}
+.content-five b,.content-five b a{font-size:18px;line-height:18px;color:#ffff00;text-align:center;}
+.content-five b{margin-bottom:36px;display:block;}
+.content-five p{font-size:24px;text-align:center;line-height:24px;color:#e2dde1;}
+.content-five p span{font-size:50px;line-height:40px;color:#fff;margin-left:22px;}
+
+.end{height:300px;overflow:hidden;}
+.end .synopsis{height:241px;border-bottom:solid 1px #f5f5f5;}
+.synopsis ul{margin:33px 34px 0 0;float:left;width:95px;}
+.synopsis ul li.list1{font-size:16px;line-height:40px;border-bottom:solid 1px #dfdfdf;color:#000;}
+.synopsis ul li.list2{font-size:12px;line-height:12px;color:#737574;padding-left:17px;height:12px;margin-top:13px;background:url(../jinglingtu.png) no-repeat 0 -415px;}
+
+.synopsis ul.ul-right{width:290px;float:right;border-left:solid 1px #ededed;padding-left:40px;}
+.synopsis ul li.list3{font-size:14px;line-height:12px;color:#444341;height:12px;margin:13px 0 6px 0;padding:0;background:none;}
+.synopsis ul li.list4{background-position:0 -196px;height:16px;}
+.synopsis ul li.list5{background-position:0 -244px;height:16px;}
+.synopsis ul li.list6 input{float:left;}
+.synopsis ul li.list6 form{margin-top:16px;}
+.synopsis ul li.list6 .text{width:155px;height:19px;background:url(../jinglingtu.png) no-repeat 0 -284px;border:solid 1px #dfdfdf;}
+.synopsis ul li.list6 .submit{width:53px;height:21px;background:#f03c5f;color:#FFF;line-height:21px;text-align:center;border:0;}
+
+.cope{position:relative;}
+.cope ul{margin-top:16px;}
+.cope ul li{float:left;font-size:12px;color:#adadad;padding:0 10px;height:12px;border-right:solid 1px #a8a8a8; }
+.cope ul li.link{width:30px;height:20px;background:url(../jinglingtu.png) no-repeat 0 -142px;border:0;padding:0;}
+.cope p{font-size:12px;color:#adadad;position:absolute;left:0px; top:24px;}

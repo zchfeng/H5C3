@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style>
+*{margin:0;padding:0;}
+ul li{list-style:none;}
+body{background:#000;}
+ul{width:200px;height:300px;background:#FF0;transform-style:preserve-3d;position:absolute;top:50%;left:50%;
+margin-left:-150px;margin-top:-150px;transition:all 5s linear;transform:rotatey(45deg);}
+ul li{position:absolute;width:200px;height:300px;}
+ul li:nth-child(1){background:#F00;}
+ul li:nth-child(2){background:#0F0;}
+ul li:nth-child(3){background:#00F;}
+ul li:nth-child(4){background:#FFF;}
+ul li:nth-child(5){background:#0FF;}
+ul li:nth-child(6){background:#F0F;}
+ul:hover{transform:rotatey(360deg) ;}
+ ul:hover li:nth-child(1){transform:rotatey(60deg) translateZ(350px) translatey(75px);}
+ ul:hover li:nth-child(2){transform:rotatey(120deg) translateZ(300px) translatey(100px);}
+  ul:hover li:nth-child(3){transform:rotatey(180deg) translateZ(300px) translatey(100px);}
+    ul:hover li:nth-child(4){transform:rotatey(240deg) translateZ(350px) translatey(75px);}
+	  ul:hover li:nth-child(5){transform:rotatey(300deg) translateZ(250px) translatey(50px);}
+    ul:hover li:nth-child(6){transform:rotatey(0deg) translateZ(250px) translatey(50px);}
+	
+</style>
+</head>
+
+<body>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+</body>
+</html>

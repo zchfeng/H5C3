@@ -1,0 +1,41 @@
+*{margin:0;padding:0;}
+.main{width:1210px;margin:0 auto;}
+a{font:12px "微软雅黑";color:#666;text-decoration:none;}
+ul li{list-style:none;}
+body{background-color:#fff;}
+
+.top {width:100%;height:48px;}
+.top .main{border-bottom:1px solid #c81622;height:48px;}
+.top img,h4{float:left;margin-top:14px;}
+.top h4{margin:17px 0 0 10px;}
+.top ul{float:right;width:693px;height:34px;border:solid 1px #ededed;margin-top:13px;border-bottom:0;}
+.top ul li{float:left;height:15px;border-right:solid 1px #ccc;margin-top:10px;line-height:15px;}
+.top ul li.list1{border-right:0;}
+.top ul li a{padding:10px 16px 9px 16px;}
+.top ul li a:hover{border-left:solid 1px #c81622;border-right:solid 1px #c81622;border-top:solid 2px #c81622;color:#c81622;background:#fff;border-bottom:0;}
+
+
+.conter{height:484px;}
+.conter-left{width:330px; height:474px;background:#e7f3f3;float:left;}
+.conter-left .pic1{height:237px;}
+.conter-left .serve{width:330px; height:46px;background:#d6eaeb;}
+.conter-left img,p{float:left;}
+.conter-left .serve img{margin:10px 0 0 25px;}
+.conter-left .serve p{margin:10px 0 0 6px;}
+.conter-left .serve .pic2{margin-left:87px;}
+.conter-left .box{height:190px;padding:28px 0 0 25px;}
+.conter-left .box ul{width:160px;float:left;}
+.conter-left .box ul li.list1 a{font-size:14px;color:#666;}
+.conter-left .box ul li.list1{margin-bottom:12px;}
+.conter-left .box ul li.list2 a{color:#999a95;line-height:24px;}
+.conter-left .box ul li.list2 span{margin-left:11px;}
+.conter-left .box ul li.list2 .list3{color:red;}
+.conter-left .box ul.list4{width:145px;float:left;}
+
+.conter-right{float:left;width:880px; height:474px;}
+.conter-right dl{width:219px; height:236px;border-right:solid 1px #ededed;border-bottom:solid 1px #ededed;float:left;}
+.conter-right dl dt{width:219px; height:167px;text-align:center;}
+.conter-right dl span{vertical-align:middle; width:0; height:100%;display:inline-block;}
+.conter-right dl img{vertical-align:middle;}
+.conter-right dl dd{margin:0 28px 10px 17px;font-size:12px;color:#000;}
+.conter-right dl dd.manber{margin:0 28px 10px 17px;font-size:14px;color:#e9666b;}

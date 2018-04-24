@@ -1,0 +1,25 @@
+htlm,body,div,ul,ul li,input,a,span{margin:0;padding:0;}
+a{text-decoration: none;}
+ul li,ol li{list-style:none;}
+body{font: 14px/14px "微软雅黑";color:#000;}
+img{border:0;}
+input{outline:none;}
+
+.content{width:705px ;height:362px;margin:30px auto;border:solid 1px #dedede;padding:20px 0 0 30px;}
+.content ul{width:282px;float:left;}
+.content ul li{font-size:14px;line-height:14px;margin-bottom:22px;padding-left:20px;}
+.content ul li.title{font-size:18px;font-weight:bold;line-height:18px;height:24px;padding-top:32px;padding-left:50px;background:url(../images/1_03.png) no-repeat left top;margin-bottom:14px;}
+.content ul li.list1{margin-top:31px 0 0 24px;width:200px;height:94px;border-top:#dedede solid 1px;text-align:center;padding-top:20px;}
+span{color:#f15a23;}
+
+form{width:386px;height:306px;margin-top:11px;background:url(../images/12_03.png) repeat-y left;float:right;padding:16px 37px 0 0;}
+form{font-size:12px;line-height:34px;color:#999;float:right;}
+input{width:256px;height:32px;border:solid 1px #cccccc;margin:0 0 14px 18px;}
+form div{float:right;}
+form .name input{background:url(../images/1_06.png) no-repeat 229px 10px;}
+[type="email"]{background:url(../images/1_10.png) no-repeat 229px 10px;}
+form .iphone input{background:url(../images/1_12.png) no-repeat 229px 10px;}
+form .qq input{background:url(../images/1_14.png) no-repeat 229px 10px;}
+form .who input{background:url(../images/1_19.png) no-repeat 229px 10px;}
+[type="submit"]{height:37px;border:0;margin-top:13px;float:right;background:url(../images/1_23.png) repeat-x left;text-align:center;line-height:37px;font-size:18px;color:#fff;}
+

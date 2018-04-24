@@ -1,0 +1,7 @@
+.mex{display:block;flex:1;order:-1;}
+.top ul{display:none;}
+.logo{justify-content:center;display:flex;}
+
+.box a{width:45%;display:block;}
+.box .banner{width:98%;padding:10px;}
+main ol li{width:45%;}

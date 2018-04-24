@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link rel="stylesheet" href="link.css" type="text/css" />
+<style>
+.iphone{background:url(images/ui-phone.png) no-repeat;width:194px;height:408px;margin:50px auto;box-sizing:border-box;padding:58px 13px 58px 14px;}
+.main{width:167px;overflow:hidden;}
+.iphone ul{width:1169px;position:relative;
+animation:go 10s linear infinite}
+.iphone ul li{width:167px;float:left;}
+.iphone ul li img{width:100%;}
+@keyframes go{
+	        0%{left:0;}
+			8%{left:0;}
+			16%{left:-167px;}
+			32%{left:-167px;}
+			40%{left:-334px;}
+			48%{left:-334px;}
+			56%{left:-501px;}
+			64%{left:-501px;}
+			72%{left:-668px;}
+			80%{left:-668px;}
+			88%{left:-835px;}
+			96%{left:-835px;}
+			100%{left:-1002px;}
+		
+	}
+.run{height:300px;width:180px;background: #0FF url(images/charector.png) no-repeat;animation:run 2s  step-end infinite;margin:50px auto;}
+@keyframes run{
+	0%{background-position:0 0 ;}
+	15%{background-position:-180px 0 ;}
+	30%{background-position:-360px 0 ;}
+	45%{background-position:-540px 0 ;}
+	60%{background-position:-720px 0 ;}
+	75%{background-position:-900px 0 ;}
+	90%{background-position:-1080px 0 ;}
+	}
+</style>
+</head>
+
+<body>
+<div class="iphone">
+    <div class="main">
+    <ul>
+        <li><img src="images/ui01.jpg" /></li>
+        <li><img src="images/ui02.jpg" /></li>
+        <li><img src="images/ui03.jpg" /></li>
+        <li><img src="images/ui04.jpg" /></li>
+        <li><img src="images/ui05.jpg" /></li>
+        <li><img src="images/ui06.jpg" /></li>
+        <li><img src="images/ui01.jpg" /></li>
+    </ul>
+    </div>
+</div>
+<div class="run">
+</div>
+</body>
+</html>

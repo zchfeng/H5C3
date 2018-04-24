@@ -1,0 +1,38 @@
+*{margin:0;padding:0;}
+.main{width:885px;margin:0 auto;padding-top:21px;}
+a{font:14px "微软雅黑"; color:#666666;text-decoration:none;}
+ul li{list-style:none;}
+body{background:#f6f6f6;}
+
+.main .box1{width:203px;height:1328px;float:left;}
+.main .box2{width:682px;height:1328px;float:left;}
+.main .box1 .list2{padding-top:91px;}
+.main .box1 ul li{padding-left:25px;}
+.main .box1 .list1{font-size:24px;padding-top:20px;}
+.main .box1 .list3{heiht:48px;line-height:48px;padding-bottom:5px;}
+
+.main .box2 .list1{width:692px;height:50px;text-align:center;}
+.main .box2 .list1{background-image:url(../images/form1_05.gif)}
+.main .box2 .list1{font-size:19px;color:#f3316b;line-height:50px;}
+.main .box2 .list2{width:671px;height:1210px;background:#ffffff;margin-left:10px;}
+.main .box2 .list3{padding:46px 0 0 85px;}
+.main .box2 .list3 .pic1{float:right;font-size:12px;padding-right:148px;}
+/*.main .box2 .list3 span.pic1{padding-top:-14px;}*/
+.main .box2 .list3 select{width:82px;height:30px;}
+.main .box2 .list3 .list4{margin:0 0 20px 14px;}
+.main .box2 .list3 select.list5{width:252px;height:30px;}
+.main .box2 .list3 .list6{margin-left:-14px;}
+.main .box2 .list3 .list7{margin-left:-28px;}
+.main .box2 .list3 .list8{margin-bottom:30px;}
+.main .box2 .list3 .list9{margin-left:-28px;padding-right:15px;}
+.main .box2 .list3 .list10{width:76px;height:27px;}
+.main .box2 .list3 .list10{padding-right:5px;border:solid 1px #e0e0e0;border-bottom:none;}
+.main .box2 .list3 .list11{float:right;font-size:12px;color:#2c81d6;}
+.main .box2 .list3 .list12{width:439px;height:198px;border:solid 1px #e0e0e0;float:right;margin-right:80px;padding:10px;}
+.main .box2 .list3 .list12 .list13{width:416px;height:34px;margin-bottom:12px;}
+.main .box2 .list3 .list12 span{width:43px;height:20px;text-align:center;color:#fff;font-size:12px;background-color:#da9ca4;}
+.main .box2 .list3 .list12 .list14{float:right;margin-top:110px;}
+.main .box3{width:276px;height:47px;background:#15b2df;float:right;margin:23px 226px 0 0;text-align:center;line-height:47px;}
+.main .box3{font-size:12px;color:#999999;}
+.main .box3 span{font-size:14px;color:#fff;}
+.cope{padding-left:155px;font-size:12px;color:#999999;}

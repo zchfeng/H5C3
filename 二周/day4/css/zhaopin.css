@@ -1,0 +1,86 @@
+*{margin:0;padding:0;}
+body{background:#f3f3f3;}
+ul li,ol li{list-style:none;}
+a{font:14px "微软雅黑";color:#333;text-decoration:none;}
+input{outline:none;}
+textarea{resize:none;}
+.main{width:1172px;margin:0 auto;}
+
+
+.top{width:100%;height:77px;background:#fff;padding-top:23px;}
+.top img,.top ul{float:left;}
+.top img{border:0;}
+.top ul{margin:20px 0 0 40px;}
+.top ul li{margin-right:38px;float:left;}
+.top ul li a:hover{color:#76d5d1;}
+.top ol,.top ol li{float:right;}
+.top ol li{padding:0px 21px 0 49px;height:20px;margin-top:19px;background:url(../zhaopin.jpg) no-repeat;border-right:solid 1px #e5e5e5;} 
+.top ol li.list1{background-position:19px -50px;padding-right:0;border-right:0;}
+.top ol li.list2{background-position:19px -9px;}
+
+.header{width:100%;height:38px;border-top:solid 1px #ffe7b7;border-bottom:solid 1px #ffe7b7;background:#fdf8e4;margin:15px 0;}
+.header p{text-align:center;font-size:12px;color:#ae5a2e;line-height:38px;}
+
+.conter{overflow:hidden;}
+.conter-left{width:262px;border:solid 1px #e4e6e5;border-top:0;background:#ffffff;overflow:hidden;margin-right:16px;float:left;}
+.conter-left .conter-left-top{height:44px;background:#fafafa;margin-bottom:20px;}
+.conter-left .conter-left-top ul{padding-top:10px;}
+.conter-left .conter-left-top ul li{width:82px;float:left;line-height:24px;padding-left:48px;background:url(../zhaopin.jpg) no-repeat;border-right:solid 1px #e3e3e3;}
+.conter-left .conter-left-top ul li.phone a{color:#54a4eb;}
+.conter-left .conter-left-top ul li.chat a{color:#68ccb2;}
+.conter-left .conter-left-top ul li.phone{background-position:23px -88px;}
+.conter-left .conter-left-top ul li.chat{background-position:23px -127px;}
+.conter-left .conter-left2{width:240px; height:93px;margin:17px auto;border:solid 1px #ededed;border-radius:5px;background:#fafafa;}
+.conter-left .conter-left2 ul{margin:12px 0 0 10px;}
+.conter-left .conter-left2 ul li.color1{font-size:16px;color:#9FC;margin-bottom:10px;}
+.conter-left .conter-left2 ul li.color2{font-size:16px;color:#F00;margin-bottom:10px;}
+.conter-left .conter-left2 ul li.color3{font-size:12px;color:#999;}
+.conter-left .conter-left2 ul li.color3 .span1{padding-right:10px;}
+.conter-left .conter-left2 ul li.color3 .span3{padding-left:10px;}
+.conter-left .conter-left2 ul li.color3 .span2{padding:0 10px;display:inline-block;border-left:solid 1px #e9e7ea;height:13px;border-right:solid 1px #e9e7ea;}
+.conter-left p{font-size:14px;text-align:center;color:#CCC;}
+.conter-left .dia{margin-top:18px;margin-left:10px;overflow:hidden;}
+.conter-left .dia img{float:left;}
+.conter-left .dia p{float:left;margin-left:14px;width:165px;display:block;border:solid 1px #ccc;border-radius:5px;font-size:12px;line-height:20px;text-align:left;
+color:#676765;padding:12px 10px;}
+.conter-left .dia span{width:50px;height:50px;background:url(../images/zhaopin1_03.jpg) no-repeat;display:inline-block;position:absolute;background-position:5px 15px;}
+.conter-left textarea{width:240px;height:88px;margin-left:10px;margin-top:54px;border-radius:5px;}
+.conter-left input{width:242px;height:40px;background:#fb7200;border:hidden;border-radius:5px;margin:20px 10px;color:#FFF;}	
+
+.conter-right{width:890px;overflow:hidden;float:left;}
+.conter-right .conter-right1{width:878px;height:44px;padding:6px 5px;border:solid 1px #e0e0e0;background:#fff;margin-bottom:15px;}
+.conter-right .conter-right1 input{float:left;}
+.conter-right .conter-right1 .text{width:774px;height:44px;border:0;background:#fff;}
+.conter-right .conter-right1 .submit{cursor:pointer;width:104px;height:44px;border:0;background:#5ecfc9;font-size:19px;color:#FFF;}
+.conter-right .conter-right2{width:850px;height:101px;padding:22px 20px 11px 20px;border:solid 1px #e0e0e0;border-top:0;margin-bottom:15px;
+background:url(../images/zhaopin_07.jpg) no-repeat right top #FFF;}
+.conter-right .conter-right2 p{font-size:22px;margin-bottom:13px;color:#000;margin-bottom:15px;}
+.conter-right .conter-right2 b{font-size:22px;margin-bottom:13px;color:#F00;display:block;}
+.conter-right .conter-right2 ul li{float:left;font-size:12px;color:#666;padding:0 10px;border-right:solid 1px #ebe7e8;}
+.conter-right .conter-right2 ul li.list1{padding-left:0;}
+.conter-right .conter-right2 ul li.list2{float:right;border-right:0;}
+.conter-right .conter-right2 ul li.list3{padding:0 0 0 29px;height:12px;background:url(../zhaopin.jpg) no-repeat;background-position:9px -172px}
+.conter-right .conter-right3{width:849px;height:100px;padding:15px 25px 12px 17px;border:solid 1px #e0e0e0;border-top:0;background:#fff;margin-bottom:15px;}
+.conter-right .conter-right3 img{float:left;margin-right:22px;}
+.conter-right .conter-right3 ul{float:left;}
+.conter-right .conter-right3 ul li.list1{font-size:21px;color:#000;margin:7px 0 13px 0;}
+.conter-right .conter-right3 ul li.list1 span{display:inline-block;width:58px;height:17px;border:solid 1px #53cac4;border-radius:3px;font-size:12px;color:#53cac4;margin-left:5px;}
+.conter-right .conter-right3 ul li.list2{font-size:16px;color:#9a989b;margin-bottom:10px;}
+.conter-right .conter-right3 ul li.list3{width:42px;height:24px;font-size:12px;color:#fff;background:#0C6;border-radius:3px;text-align:center;line-height:24px;}
+.conter-right .conter-right3 .send{float:right;margin-top:20px;}
+.conter-right .conter-right3 .send a{display:inline-block;width:120px;height:56px;border:solid 1px #fb7200;border-radius:7px;margin-left:14px;text-align:center;line-height:56px;font-size:16px;color:#fb7200;}
+.conter-right .conter-right3 .send a:hover{color:#fff;background:#fb7200;}
+.conter-right .conter-right4{width:811px;padding:36px 40px 0 40px;border:solid 1px #e0e0e0;border-top:0;background:#fff;}
+.conter-right .conter-right4 .title{padding-left:20px;height:18px;background:url(../zhaopin.jpg) no-repeat;background-position:0 -211px;fonr-side:18px;color:#000;margin-bottom:28px;line-height:18px;}
+.conter-right .conter-right4 .content{font-size:14px;color:#676568;line-height:30px;margin-bottom:36px;}
+.conter-right .conter-right4 .content ul li{float:left;padding:8px;color:#53cbc2;display:block;border:solid 1px #53cbc2;border-radius:7px;margin-right:15px;}
+.conter-right .conter-right4 .content ul{display:block;overflow:hidden;}
+.conter-right .conter-right4 .content ol li{display:block;margin-top:12px;color:#9a989b;padding-left:25px;background:url(../zhaopin.jpg) no-repeat;background-position:0 -253px;line-height:15px;}
+.conter-right .conter-right4 .content ol li.list1{background-position:0 -293px;}
+.conter-right .conter-right4 .content ol li.list2{background-position:0 -332px;}
+.conter-right .conter-right4 .conter-bottom{width:767px;background:#fafafa;border:1px dashed #eaeaea;padding-bottom:0;margin-bottom:35px;}
+
+.cope{width:100%;height:166px;padding-top:65px;background:#000;}
+.cope p{text-align:center;font-size:12px;color:#FFF;margin-bottom:15px;}
+.cope .box{overflow:hidden;margin:0 auto;margin-bottom:42px;text-align:center;}
+.cope p span{font-size:16px;color:#FFF;display:inline-block;margin-right:45px;}

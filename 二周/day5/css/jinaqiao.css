@@ -1,0 +1,122 @@
+*{margin:0;padding:0;}
+ul li,ol li{list-style:none;}
+.main{width:1000px;margin:0 auto;}
+input{outline:none;}
+a{font:14px "微软雅黑";color:#333;text-decoration:none;}
+img{border:0;}
+
+.top{
+	width:100%;height:26px;background:#e4e4e4;padding:6px;overflow:hidden;
+}
+.top a{
+	 font: 14px/15px "宋体";color:#696969;
+}
+.top a:hover{color:#000;}
+.top ul{
+	margin-left:2px;
+}
+.top ul li{float:left;}
+.top ul li a{
+   padding:0 10px 0 7px; border-left:solid 1px #FFF;border-right:solid 1px #d6d5d5;
+}
+.top ul li.list-left a{
+	border-left:0;
+}
+.top ul li.list-right a{
+	border-right:0;
+}
+.top form{
+	width:178px;height:20px;float:right;margin-left:5px;overflow:hidden;
+}
+.top form .text{
+	width:150px;height:20px;border:0;background:#FFF;float:left;
+}
+.top form .submit{
+	width:22px;height:20px;border:0;background:url(../images/jianpiao_03.png) no-repeat 0 0;float:right;cursor:pointer;
+}
+.top p{
+	float:right;
+}
+.top p a{
+	padding-right:19px;
+}
+
+.header{height:98px;background:url(../images/jianpiao_07.png) no-repeat 682px 10px;}
+.header img{margin:19px 0 0 19px;border:0;}
+
+.nav{width:100%;height:44px;background:#d92b34;}
+.nav .nav-con{background:#c8141e;overflow:hidden;}
+.nav .nav-con ul{margin-left:8px;}
+.nav .nav-con ul li{float:left;}
+.nav .nav-con ul li a{padding:0 19px;color:#FFF;display:block;line-height:44px;font-size:16px;}
+.nav .nav-con ul li a:hover{background:#FFF;color:#000;}
+
+.banner{width:100%;height:376px;background:#e6e6e6;}
+.banner .main{position:relative;}
+.banner img{border:0;}
+.banner a.click{padding:0 10px;height:30px;position:absolute;left:26px;bottom:20px;background:#0c091a;_fitler:alpha(opacity=50); opacity:0.5;}
+.banner a p{color:red;line-height:30px;opacity:1;}
+
+.content{overflow:hidden;padding-top:40px;}
+.content-left{width:728px;overflow:hidden;float:left;}
+.content-left-one,.content-left-three{width:268px;float:left;margin-right:40px;margin-bottom:32px;overflow:hidden;}
+.content-left-one ul,.content-left-three ul{width:268px;height:40px;border-bottom:solid 1px #ccc;margin-bottom:20px;}
+.content-left-one ul li,.content-left-three ul li{float:left;margin-right:20px;}
+.content-left-one ul li a,.content-left-three ul li a{font-size:17px;display:block;height:38px;line-height:38px;float:left;}
+.content-left-one ul li a:hover,.content-left-three ul li a:hover{border-bottom:solid 2px #c8141e;background:#FFF;}
+.content-left-one p{width:220px;text-align:center;font-size:14px;line-height:30px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;margin:0 auto;}
+.content-left-one ol{width:76px;text-align:center;height:9px;overflow:hidden;margin-left:100px;}
+.content-left-one ol li{float:left;}
+.content-left-one ol li a{width:9px;height:9px;background:#999;display:inline-block;float:left;margin-right:10px;}
+.content-left-one ol li a:hover{background:#c8141e;}
+
+.content-left-tow{width:420px;float:left;margin-bottom:47px;}
+.content-left-tow ul{width:420px;height:40px;border-bottom:solid 1px #ccc;margin-bottom:20px;}
+.content-left-tow ul li{float:left;margin-right:20px;}
+.content-left-tow ul li a{font-size:17px;display:block;height:38px;line-height:38px;float:left;}
+.content-left-tow ul li a:hover{border-bottom:solid 2px #c8141e;background:#FFF;}
+.content-left-tow ul li.list1{float:right;margin-right:0;}
+.content-left-tow ul li.list1 a{font-size:14px;color:#F00;}
+.content-left-tow ul li.list1 a:hover{border-bottom:0;}
+.content-left-tow p{font-size:12px;line-height:24px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;width:218px;display:inline-block;}
+.content-left-tow span{float:right;color:#806699;font-size:12px;}
+
+.content-left-three .report{margin-bottom:15px;overflow:hidden;width:268px;}
+.content-left-three ol{height:42px;width:56px;padding-top:18px;border-right:dashed 1px #ccc;float:left;}
+.content-left-three ol li,.content-left-three dl{color:#666;height:22px;text-align:center;font-size:14px;}
+.content-left-three dl{height:60px;float:left;padding-left:14px;}
+.content-left-three dl dd{color:#999;}
+.content-left-three .link {margin-top:21px;margin-left:114px;overflow:hidden;height:9px;}
+.content-left-three .link a{width:9px;height:9px;background:#999;display:block;float:left;margin-right:10px;}
+.content-left-three .link a:hover{background:#c8141e;}
+
+.content-rigth{width:240px;overflow:hidden;float:left;margin-left:32px;}
+.content-right-one{height:306px;width:240px;background:url(../images/bg_03.png) repeat;overflow:hidden;margin-bottom:28px;}
+.content-right-one img{margin:11px 0 0 10px;}
+.content-right-tow{width:268px;float:left;margin-right:40px;margin-bottom:32px;overflow:hidden;}
+.content-right-tow ul{width:268px;height:40px;border-bottom:solid 1px #ccc;margin-bottom:20px;}
+.content-right-tow ul li{float:left;margin-right:20px;}
+.content-right-tow ul li a{font-size:17px;display:block;height:38px;line-height:38px;float:left;}
+.content-right-tow ul li a:hover{border-bottom:solid 2px #c8141e;background:#FFF;}
+.content-right-tow input{margin-top:4px;}
+.content-right-tow .account,.content-right-tow .password{width:215px;height:26px;border:solid 1px #ccc;}
+.content-right-tow .confirm{width:78px;height:22px;border:solid 1px #ccc;background:#f0f0f0;margin-right:54px;cursor:pointer;}
+.content-right-tow form a:hover{color:#F00;}
+
+.flexible{width:100%;height:24px;background:#ebebeb;margin-top:97px;bordre-top:4px solid #ff9c00;}
+.flexible a{width:60px;height:12px;background:url(../images/pic_36.png) no-repeat;display:block;margin:0 auto;cursor:pointer;}
+
+.bottom{width:100%;height:42px;background:#d4d4d4;}
+.bottom ul li{width:200px;float:left;text-align:center;}
+.bottom ul li a{font-size:14px;color:#000;line-height:42px;}
+
+.cope{width:100%;height:153px;background:#302728;}
+.cope-one{height:14px;border-bottom:solid 1px #3e3637;padding:18px 0 17px 60px;}
+.cope-one ul li{float:left;}
+.cope-one ul li a{font-size:12px;padding:0 10px;border-right:solid 1px #d0cfcf;color:#FFF;}
+.cope-one ul li a.border-r{border-right:0;}
+
+.cope-tow{padding:25px 0 0 115px;background:url(../images/pic_39.png) no-repeat 0 25px;height:104px;}
+.cope-tow ul{float:left;}
+.cope-tow ul li{font-size:12px;color:#959292;line-height:24px;}
+.cope-tow img{float:right;margin:8px 26px 0 0;}

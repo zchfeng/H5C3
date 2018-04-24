@@ -1,0 +1,4 @@
+div{width:100px;height:100px;margin:20px;float:left;}
+div:nth-child(1){background:linear-gradient(red 30%, #06F 10%,#0FF 10%);}
+div:nth-child(2){background:#0F0; background:repeating-linear-gradient(to right bottom, rgba(0,0,0,0.3),red 20%, rgba(0,0,0,0.8) 20%);}
+div:nth-child(3){background:#0F0; background:repeating-radial-gradient( red, #FF0 20%, blue 20%);}
